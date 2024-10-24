@@ -58,17 +58,17 @@ Given a JSON schema:
 ```
 
 We will manually inject the following starting tokens:
-```json
+```
 {
   "name": "
 ```
 
 And let the model generate the rest of the string, cutting it off when it generates the closing quote, then manually 
 injecting the next JSON tokens:
-```json
+```
 {
   "name": "John",  // stopped model generation at the closing quote
-  "age": "
+  "age": "  // manually inject these tokens and resume model generation
 ```
 
 And so on. This way, we can generate the model generates the correct JSON schema 100% of the time.
