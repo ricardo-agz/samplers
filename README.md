@@ -32,8 +32,8 @@ json_output = json_sampler(
 Output:
 ```json
 {
-  "setup": "I told my wife she was drawing her eyebrows too high.",
-  "punchline": "She looked surprised."
+  "setup": "Why couldn't the bicycle stand up by itself?",
+  "punchline": "Because it was two-tired."
 }
 ```
 
